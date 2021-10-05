@@ -1,0 +1,10 @@
+<div>
+    <mat-form-field appearance="fill">
+        <mat-label>Status</mat-label>
+        <mat-select>
+          <mat-option *ngFor="let item of listSelect" [value]="itemSelected">
+            {{item.description}}
+          </mat-option>
+        </mat-select>        
+    </mat-form-field>
+</div>

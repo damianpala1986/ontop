@@ -1,0 +1,25 @@
+.header {
+  background-color: #ffffff;
+  height: 64px;
+  position: relative;
+  .title-container {
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+  }
+  .float-icon {
+    position: absolute;
+    top: 22px;
+
+    &.left-icon-container {
+      left: 24px;
+    }
+    &.right-icon-container {
+      right: 24px;
+    }
+
+    i {
+      font-size: 20px;
+    }
+  }
+}
